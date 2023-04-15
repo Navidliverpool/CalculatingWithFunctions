@@ -6,7 +6,9 @@ function two() {}
 
 function three() {}
 
-function four() {}
+function four() {
+    return 4;
+}
 
 function five() {}
 
@@ -16,12 +18,18 @@ function seven() {}
 
 function eight() {}
 
-function nine() {}
+function nine() {
+    return 9;
+}
 
-function plus() {}
+function plus(a, b) {
+    return a + b;
+}
 
 function minus() {}
 
 function times() {}
 
 function dividedBy() {}
+
+four()
