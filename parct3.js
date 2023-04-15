@@ -1,6 +1,6 @@
 class A {
     four() {
-        return 4 + plus();
+        return 4 + this.plus();
     }
 
     nine() {
@@ -9,7 +9,7 @@ class A {
 
     plus() {
 
-        return nine();
+        return this.nine();
     }
 }
 class B {
