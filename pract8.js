@@ -1,20 +1,21 @@
-function four() {
-    // moshkel injas. plus() inja dere moshkel ijad mikone.
-    return 4;
+function four(i) {
+    console.log("inja1", typeof(i), i)
+        // I have changed return plus() + 4; to return i + 4; and it solved the issue. 
+    return i + 4;
 }
 
-function nine() {
+function nine(i) {
+    if (i == four()) {
+        return i + 9;
+    }
     return 9;
 }
 
 function plus(i) {
     if (i == nine()) {
-        console.log("inja", i)
+        console.log("inja3", i)
         return nine();
     }
     return "zart";
 }
-var test = plus(nine());
-var t = test + four();
-// console.log(four(plus(nine())))
-console.log(t)
+console.log(four(plus(nine())))
