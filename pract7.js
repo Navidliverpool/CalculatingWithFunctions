@@ -1,3 +1,4 @@
+// Not working.
 function four() {
     // moshkel injas. plus() inja dere moshkel ijad mikone.
     return 4;

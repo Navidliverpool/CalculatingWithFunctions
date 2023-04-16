@@ -1,3 +1,4 @@
+// Not working.
 class A {
     four() {
         return 4 + this.plus();

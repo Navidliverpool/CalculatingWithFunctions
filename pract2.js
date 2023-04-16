@@ -1,3 +1,5 @@
+// Not working.
+
 function four(i) {
     console.log("inja 1")
     if (i == plus()) {

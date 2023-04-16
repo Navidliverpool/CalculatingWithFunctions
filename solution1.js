@@ -1,4 +1,5 @@
 // From Codewars.
+// The best rated code for this Kata.
 function zero(fn) { return fn ? fn(0) : 0 }
 
 function one(fn) { return fn ? fn(1) : 1 }

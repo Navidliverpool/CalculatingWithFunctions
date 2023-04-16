@@ -1,3 +1,4 @@
+// Not working.
 function four(i) {
     // I have changed if (i > 0 && i == plus()) to if (i > 0 && plus()) and it solved the issue. 
     if (i === plus) {
