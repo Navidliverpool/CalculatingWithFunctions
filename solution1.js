@@ -27,3 +27,5 @@ function minus(n) { return function(v) { return v - n } }
 function times(n) { return function(v) { return v * n } }
 
 function dividedBy(n) { return function(v) { return v / n } }
+
+console.log(four(plus(nine())))
